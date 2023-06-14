@@ -11,3 +11,8 @@ print('Die 2: %.0f'%die2)
 
 sum = die1+die2
 print('Total value: %.0f'%sum)
+
+if sum > 7:
+    print('You won.')
+else:
+    print('You lost.')
