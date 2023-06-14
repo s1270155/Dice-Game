@@ -1,5 +1,11 @@
 import random
 
+print('What is your name?')
+
+name = input()
+
+print('Hello, %s' % name)
+
 print('Rolling dice...')
 
 nums = [1, 2, 3, 4, 5, 6]
